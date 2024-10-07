@@ -11,9 +11,19 @@
 
     //ENTRADA
 
+    const temperatura = Number(prompt(`qual é a temperatura em graus  Celsius?`));
 
     //PROCESSAMENTO
 
+    if (temperatura < 100) {
+        alert(`está mito baixa!`)
+    } else if (temperatura <= 200) {
+        alert(`está baixa!`)
+    } else if (temperatura < 500) {
+        alert(`está normal!`)
+    } else {
+        alert(`está muito alta!`)
+    }
     
     //SAÍDA
 
